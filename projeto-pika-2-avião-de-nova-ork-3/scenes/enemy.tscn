@@ -1,50 +1,90 @@
 [gd_scene format=3 uid="uid://cje7dkve10kd5"]
 
 [ext_resource type="Script" uid="uid://d25hi17bjo28s" path="res://script/enemy.gd" id="1_4ra3w"]
-[ext_resource type="Texture2D" uid="uid://gjnn0gj4wkl1" path="res://assets/enimigo/Chara_BlueWalk00010.png" id="2_otmr2"]
-[ext_resource type="Texture2D" uid="uid://dgpddie1qsxvb" path="res://assets/enimigo/Chara_BlueWalk00011.png" id="3_wtq4b"]
+[ext_resource type="Texture2D" uid="uid://c7jrb1vbtyric" path="res://assets/inimigo/Chara_BlueWalk00000.png" id="2_wrm80"]
+[ext_resource type="Texture2D" uid="uid://c62l2hplr07p7" path="res://assets/inimigo/Chara_BlueWalk00001.png" id="3_6awcb"]
 [ext_resource type="PackedScene" uid="uid://cex7uksln0vya" path="res://scenes/killzone.tscn" id="4_5uy6h"]
-[ext_resource type="Texture2D" uid="uid://bjbygnvdj4226" path="res://assets/enimigo/Chara_BlueWalk00012.png" id="4_j0cyh"]
-[ext_resource type="Texture2D" uid="uid://dqwn754vaw7fk" path="res://assets/enimigo/Chara_BlueWalk00013.png" id="5_g0wcc"]
-[ext_resource type="Texture2D" uid="uid://cpraucjrcw6fv" path="res://assets/enimigo/Chara_BlueWalk00014.png" id="6_s1ycm"]
-[ext_resource type="Texture2D" uid="uid://cnfts7pb0575r" path="res://assets/enimigo/Chara_BlueWalk00015.png" id="7_shcg2"]
-[ext_resource type="Texture2D" uid="uid://ciotx3xho3buk" path="res://assets/enimigo/Chara_BlueWalk00016.png" id="8_ile5s"]
-[ext_resource type="Texture2D" uid="uid://dd7sjcvxkc686" path="res://assets/enimigo/Chara_BlueWalk00017.png" id="9_1x4g4"]
-[ext_resource type="Texture2D" uid="uid://cevv6qi5j18ic" path="res://assets/enimigo/Chara_BlueWalk00018.png" id="10_2pwtc"]
-[ext_resource type="Texture2D" uid="uid://8cfpidyrijaq" path="res://assets/enimigo/Chara_BlueWalk00019.png" id="11_rogs8"]
+[ext_resource type="Texture2D" uid="uid://c2nkgqr3qud3p" path="res://assets/inimigo/Chara_BlueWalk00002.png" id="4_wjec0"]
+[ext_resource type="Texture2D" uid="uid://ckt6nac2r7i67" path="res://assets/inimigo/Chara_BlueWalk00003.png" id="5_i4rgx"]
+[ext_resource type="Texture2D" uid="uid://2id0tu44qlyh" path="res://assets/inimigo/Chara_BlueWalk00004.png" id="6_2mchx"]
+[ext_resource type="Texture2D" uid="uid://7vq1hbbk757" path="res://assets/inimigo/Chara_BlueWalk00005.png" id="7_t3vcr"]
+[ext_resource type="Texture2D" uid="uid://c8knjko0xcwxn" path="res://assets/inimigo/Chara_BlueWalk00006.png" id="8_qaulx"]
+[ext_resource type="Texture2D" uid="uid://bsxwnkmlqg063" path="res://assets/inimigo/Chara_BlueWalk00007.png" id="9_1f82d"]
+[ext_resource type="Texture2D" uid="uid://optejk5wim4h" path="res://assets/inimigo/Chara_BlueWalk00008.png" id="10_lioqc"]
+[ext_resource type="Texture2D" uid="uid://cqc1gh3p6v715" path="res://assets/inimigo/Chara_BlueWalk00009.png" id="11_0lg75"]
+[ext_resource type="Texture2D" uid="uid://c0133kkfonfgo" path="res://assets/inimigo/Chara_BlueWalk00010.png" id="12_lsnsy"]
+[ext_resource type="Texture2D" uid="uid://drnlm57b25w4t" path="res://assets/inimigo/Chara_BlueWalk00011.png" id="13_thsr5"]
+[ext_resource type="Texture2D" uid="uid://00i6v6068o1e" path="res://assets/inimigo/Chara_BlueWalk00012.png" id="14_ekh6n"]
+[ext_resource type="Texture2D" uid="uid://dwsyqyt3c6evq" path="res://assets/inimigo/Chara_BlueWalk00013.png" id="15_2sbpf"]
+[ext_resource type="Texture2D" uid="uid://ca7c3dqkmfp8l" path="res://assets/inimigo/Chara_BlueWalk00014.png" id="16_78kod"]
+[ext_resource type="Texture2D" uid="uid://bdxt788sov25e" path="res://assets/inimigo/Chara_BlueWalk00015.png" id="17_605iw"]
+[ext_resource type="Texture2D" uid="uid://bvoq5t7b1abm8" path="res://assets/inimigo/Chara_BlueWalk00016.png" id="18_x6q4o"]
+[ext_resource type="Texture2D" uid="uid://b0y8dj16q5k25" path="res://assets/inimigo/Chara_BlueWalk00017.png" id="19_2tuss"]
+[ext_resource type="Texture2D" uid="uid://bbf1elrdp8lui" path="res://assets/inimigo/Chara_BlueWalk00018.png" id="20_7v6cf"]
+[ext_resource type="Texture2D" uid="uid://d34ij8eit4ut2" path="res://assets/inimigo/Chara_BlueWalk00019.png" id="21_vab5u"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5uy6h"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_otmr2")
+"texture": ExtResource("2_wrm80")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_wtq4b")
+"texture": ExtResource("3_6awcb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_j0cyh")
+"texture": ExtResource("4_wjec0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_g0wcc")
+"texture": ExtResource("5_i4rgx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_s1ycm")
+"texture": ExtResource("6_2mchx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_shcg2")
+"texture": ExtResource("7_t3vcr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_ile5s")
+"texture": ExtResource("8_qaulx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_1x4g4")
+"texture": ExtResource("9_1f82d")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_2pwtc")
+"texture": ExtResource("10_lioqc")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_rogs8")
+"texture": ExtResource("11_0lg75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_lsnsy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_thsr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ekh6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_2sbpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_78kod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_605iw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_x6q4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_2tuss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_7v6cf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_vab5u")
 }],
 "loop": true,
 "name": &"walk",
@@ -52,10 +92,10 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c4w8v"]
-size = Vector2(50, 28)
+size = Vector2(151, 242)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5uy6h"]
-size = Vector2(52, 29)
+size = Vector2(164, 262)
 
 [node name="Enemy" type="CharacterBody2D" unique_id=1484451002]
 script = ExtResource("1_4ra3w")
@@ -64,19 +104,20 @@ script = ExtResource("1_4ra3w")
 sprite_frames = SubResource("SpriteFrames_5uy6h")
 animation = &"walk"
 autoplay = "walk"
-frame_progress = 0.84817934
+frame_progress = 0.15357065
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=37865725]
+position = Vector2(-2.5, -10)
 shape = SubResource("RectangleShape2D_c4w8v")
 
 [node name="FloorRight" type="RayCast2D" parent="." unique_id=348463078]
-target_position = Vector2(25, 15)
+target_position = Vector2(72, 151)
 
 [node name="FloorLeft" type="RayCast2D" parent="." unique_id=303690224]
-target_position = Vector2(-25, 15)
+target_position = Vector2(-68, 153)
 
 [node name="killzone" parent="." unique_id=2105913473 instance=ExtResource("4_5uy6h")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=1284132212]
-position = Vector2(0, -0.5)
+position = Vector2(-4, -2)
 shape = SubResource("RectangleShape2D_5uy6h")

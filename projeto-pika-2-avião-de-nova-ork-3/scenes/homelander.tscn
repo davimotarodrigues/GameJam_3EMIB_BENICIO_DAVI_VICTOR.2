@@ -262,8 +262,9 @@ script = ExtResource("1_d2s3t")
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1468995834]
 zoom = Vector2(0.4, 0.4)
 limit_left = 0
-limit_top = 0
 limit_bottom = 715
+limit_smoothed = true
+position_smoothing_enabled = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=725229097]
 position = Vector2(-6, -42)

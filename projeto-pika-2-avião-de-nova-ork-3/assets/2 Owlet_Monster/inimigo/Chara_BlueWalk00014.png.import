@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqwn754vaw7fk"
-path="res://.godot/imported/Chara_BlueWalk00013.png-6b6dfdbacb9529091d039d15b6fb353b.ctex"
+uid="uid://bnm7lrt8ve3y2"
+path="res://.godot/imported/Chara_BlueWalk00014.png-cf95abe3dbf2b46e5b77ba1ee7e71116.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/enimigo/Chara_BlueWalk00013.png"
-dest_files=["res://.godot/imported/Chara_BlueWalk00013.png-6b6dfdbacb9529091d039d15b6fb353b.ctex"]
+source_file="res://assets/2 Owlet_Monster/inimigo/Chara_BlueWalk00014.png"
+dest_files=["res://.godot/imported/Chara_BlueWalk00014.png-cf95abe3dbf2b46e5b77ba1ee7e71116.ctex"]
 
 [params]
 
