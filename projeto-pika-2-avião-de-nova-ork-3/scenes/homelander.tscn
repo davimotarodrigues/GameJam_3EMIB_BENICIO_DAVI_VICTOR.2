@@ -60,7 +60,7 @@
 [ext_resource type="Texture2D" uid="uid://cr5raemix6ny1" path="res://assets/BlueWizard/2BlueWizardJump/Dash2/DashBlue_00008.png" id="38_g0bn6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fg5ua"]
-size = Vector2(166, 262)
+size = Vector2(166, 242)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_q75ln"]
 animations = [{
@@ -260,12 +260,13 @@ animations = [{
 script = ExtResource("1_d2s3t")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1468995834]
+zoom = Vector2(0.4, 0.4)
 limit_left = 0
 limit_top = 0
 limit_bottom = 715
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=725229097]
-position = Vector2(-6, -32)
+position = Vector2(-6, -42)
 shape = SubResource("RectangleShape2D_fg5ua")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=8365369]

@@ -1,16 +1,13 @@
 extends CharacterBody2D
 
 
-const WALK_SPEED = 300.0
-const RUN_SPEED = 500.0
-const JUMP_VELOCITY = -600.0
+const WALK_SPEED = 700.0
+const RUN_SPEED = 1000.0
+const JUMP_VELOCITY = -1000.0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
 func die():
 	get_tree().reload_current_scene()
-
-func _ready() -> void:
-	print("Você é viado")
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

@@ -1,22 +1,54 @@
 [gd_scene format=3 uid="uid://cje7dkve10kd5"]
 
 [ext_resource type="Script" uid="uid://d25hi17bjo28s" path="res://script/enemy.gd" id="1_4ra3w"]
-[ext_resource type="Texture2D" uid="uid://u3frv6rlvqoy" path="res://assets/kenney_platformer-art-deluxe/Base pack/Enemies/slimeWalk1.png" id="1_md0e3"]
-[ext_resource type="Texture2D" uid="uid://dywifa7rkqe7c" path="res://assets/kenney_platformer-art-deluxe/Base pack/Enemies/slimeWalk2.png" id="2_4ra3w"]
+[ext_resource type="Texture2D" uid="uid://gjnn0gj4wkl1" path="res://assets/enimigo/Chara_BlueWalk00010.png" id="2_otmr2"]
+[ext_resource type="Texture2D" uid="uid://dgpddie1qsxvb" path="res://assets/enimigo/Chara_BlueWalk00011.png" id="3_wtq4b"]
 [ext_resource type="PackedScene" uid="uid://cex7uksln0vya" path="res://scenes/killzone.tscn" id="4_5uy6h"]
+[ext_resource type="Texture2D" uid="uid://bjbygnvdj4226" path="res://assets/enimigo/Chara_BlueWalk00012.png" id="4_j0cyh"]
+[ext_resource type="Texture2D" uid="uid://dqwn754vaw7fk" path="res://assets/enimigo/Chara_BlueWalk00013.png" id="5_g0wcc"]
+[ext_resource type="Texture2D" uid="uid://cpraucjrcw6fv" path="res://assets/enimigo/Chara_BlueWalk00014.png" id="6_s1ycm"]
+[ext_resource type="Texture2D" uid="uid://cnfts7pb0575r" path="res://assets/enimigo/Chara_BlueWalk00015.png" id="7_shcg2"]
+[ext_resource type="Texture2D" uid="uid://ciotx3xho3buk" path="res://assets/enimigo/Chara_BlueWalk00016.png" id="8_ile5s"]
+[ext_resource type="Texture2D" uid="uid://dd7sjcvxkc686" path="res://assets/enimigo/Chara_BlueWalk00017.png" id="9_1x4g4"]
+[ext_resource type="Texture2D" uid="uid://cevv6qi5j18ic" path="res://assets/enimigo/Chara_BlueWalk00018.png" id="10_2pwtc"]
+[ext_resource type="Texture2D" uid="uid://8cfpidyrijaq" path="res://assets/enimigo/Chara_BlueWalk00019.png" id="11_rogs8"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5uy6h"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_md0e3")
+"texture": ExtResource("2_otmr2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_4ra3w")
+"texture": ExtResource("3_wtq4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_j0cyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_g0wcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_s1ycm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_shcg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ile5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1x4g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2pwtc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rogs8")
 }],
 "loop": true,
 "name": &"walk",
-"speed": 6.0
+"speed": 30.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c4w8v"]
@@ -32,6 +64,7 @@ script = ExtResource("1_4ra3w")
 sprite_frames = SubResource("SpriteFrames_5uy6h")
 animation = &"walk"
 autoplay = "walk"
+frame_progress = 0.84817934
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=37865725]
 shape = SubResource("RectangleShape2D_c4w8v")
