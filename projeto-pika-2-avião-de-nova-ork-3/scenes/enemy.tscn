@@ -92,10 +92,10 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c4w8v"]
-size = Vector2(151, 242)
+size = Vector2(122, 242)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5uy6h"]
-size = Vector2(164, 262)
+size = Vector2(133, 246)
 
 [node name="Enemy" type="CharacterBody2D" unique_id=1484451002]
 script = ExtResource("1_4ra3w")
@@ -107,17 +107,17 @@ autoplay = "walk"
 frame_progress = 0.15357065
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=37865725]
-position = Vector2(-2.5, -10)
+position = Vector2(2, -12)
 shape = SubResource("RectangleShape2D_c4w8v")
 
 [node name="FloorRight" type="RayCast2D" parent="." unique_id=348463078]
-target_position = Vector2(72, 151)
+target_position = Vector2(107, 234)
 
 [node name="FloorLeft" type="RayCast2D" parent="." unique_id=303690224]
-target_position = Vector2(-68, 153)
+target_position = Vector2(-125, 232)
 
 [node name="killzone" parent="." unique_id=2105913473 instance=ExtResource("4_5uy6h")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=1284132212]
-position = Vector2(-4, -2)
+position = Vector2(2.5, -13)
 shape = SubResource("RectangleShape2D_5uy6h")
